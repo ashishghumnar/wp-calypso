@@ -112,10 +112,10 @@ export class OrgCredentialsForm extends Component {
 		if ( installError === 'LOGIN_FAILURE' ) {
 			return LOGIN_FAILURE;
 		}
-		if ( installError === 'ACTIVATE_FAILURE' ) {
+		if ( installError === 'ACTIVATION_RESPONSE_FAILURE' ) {
 			return ACTIVATE_FAILURE;
 		}
-		if ( installError === 'INSTALL_FAILURE' ) {
+		if ( installError === 'INSTALL_RESPONSE_ERROR' ) {
 			return INSTALL_FAILURE;
 		}
 		if ( installError === 'FORBIDDEN' ) {
